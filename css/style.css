@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #000;
+    text-align: left;
+    line-height: 145%;
+    background-color: black;
+}
+.parent { width: 100%; }
+
+.stage {
+    float: left;
+    margin: 20px auto;
+    width: 50%;
+    min-height: 800px;
+    background-color: #FFFFFF;
+    border-radius: 25px; 
+}
+
+.leftBay, .rightBay {
+    float:  left;
+    margin: 20px auto;
+    width: 25%;
+    min-height: 800px;   
+}
+.leftBay {
+    background-image: url('../images/background/ichigo.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.rightBay {
+    background-image: url('../images/background/rukia.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
