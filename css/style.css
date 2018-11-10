@@ -17,7 +17,21 @@ body {
     background-color: #FFFFFF;
     border-radius: 25px; 
 }
-
+.mast {
+	max-width: 100%;
+	height: 300px;
+	background: red;
+	margin: auto;
+	position: relative;	
+}
+.mast-war {
+	height: 300px;
+	width: 100%;
+    background-image: url('../images/background/mast.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+	background-position: left;
+}
 .leftBay, .rightBay {
     float:  left;
     margin: 20px auto;
