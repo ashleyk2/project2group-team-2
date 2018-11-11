@@ -17,67 +17,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 25px; 
 }
-.news{
-    float: left;
-    margin: 20px auto;
-    padding: 15px;
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 200px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: red;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.mangaNews{
-    float: left;
-    margin: 20px auto;
-    padding: 15px;
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 200px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: red;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.braveSoulsNews {
-    float: left;
-    margin: 20px auto;
-    padding: 15px;
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 200px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: red;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.animeNews{
-    float: left;
-    margin: 20px auto;
-    padding: 15px;
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 200px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: red;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.consoleGameNews{
+.news, .mangaNews, .animeNews, .consoleGameNews, .braveSoulsNews{
     float: left;
     margin: 20px auto;
     padding: 15px;
