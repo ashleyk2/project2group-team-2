@@ -31,6 +31,20 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+.mangaNews{
+    float: left;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: red;
+    text-align: justify;
+    text-justify: inter-word;
+}
 h1{
     text-align: center;
 }
