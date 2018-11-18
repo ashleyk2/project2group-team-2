@@ -18,8 +18,16 @@ body 						{
     background-color: #FFFFFF;
     border-radius: 25px; 
 }
-.head 						{ height: 325px; }
-.body 						{ height: 625px; }
+.head 						{ height: 325px;
+
+}
+@media only screen and (max-width: 990px) {
+    .head {
+        height: 625px;
+    }
+}
+.body 						{ height: 800px; }
+
 .foot 						{ height: 50px; }
 .leftBay, 
 .rightBay 					{
