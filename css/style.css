@@ -1,4 +1,4 @@
-body {
+body 						{
     margin: 0;
     padding: 0;
     height: 100%;
@@ -7,16 +7,88 @@ body {
     line-height: 145%;
     background-color: black;
 }
-.parent { width: 100%; }
-
-.stage {
+.embedded-body 				{ background-color: #FFF; }
+.parent 					{ width: 100%; height: 1000px; }
+.stage 						{
     float: left;
     margin: 20px auto;
+	padding: 0;
     width: 50%;
-    min-height: 800px;
+    height: 100%;
     background-color: #FFFFFF;
     border-radius: 25px; 
 }
+.head 						{ height: 325px; }
+.body 						{ height: 625px; }
+.foot 						{ height: 50px; }
+.leftBay, 
+.rightBay 					{
+    float:  left;
+    margin: 20px auto;
+    width: 25%;
+    height: 100%;   
+}
+.leftBay 					{
+    background-image: url('../images/background/ichigo.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.rightBay 					{
+    background-image: url('../images/background/rukia.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.mast 						{
+	max-width: 100%;
+	height: 200px;
+	background: red;
+	margin: auto;
+	position: relative;	
+}
+.mast-war 					{
+	max-width: 100%;
+	height: 199px;
+    background-image: url('../images/background/mast.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: 1px;
+}
+.extend						{ 
+	height: 100%;
+	background-color: white;	
+}
+.frmstage 					{
+    margin: 5px;
+	padding: 0;
+	max-width: 98%;
+	height: 100%;
+	background-color: white;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.card 						{ margin: 5px 0; }
+.card-title a 				{
+	color: #FF6600;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.card-block 				{ padding: 5px; }
+.articleContent 			{ text-align: justify; }
+.articleLeft				{ 
+	float:left;	
+	max-width: 50%;
+	text-align: justify;
+}
+.articleLeft img			{ padding-right: 10px; }
+.moreHere 					{ 
+	clear: left;
+	max-width: 100%;
+	text-align: right; 
+}
+.forceRight					{ text-align: right; }
+.callOutHeader				{ color: #FF6600; }
+
 .news, .mangaNews, .animeNews, .consoleGameNews, .braveSoulsNews{
     float: left;
     margin: 20px auto;
@@ -32,67 +104,32 @@ body {
     text-justify: inter-word;
 }
 
-.youtube {
+.youtube 					{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
     height: 0;
 }
-.youtube iframe {
+.youtube iframe 			{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-
-h1{
-    text-align: center;
-}
-iframe {
+h1							{ text-align: center; }
+iframe 						{
     display: inline-block;
     margin: 0 auto;
     border: 0;
-
+	height: 95%;
 }
-
-span.image {
+span.image 					{
     float: left;
     display: inline-block;
-    mzx-width: 160px;
+    max-width: 160px;
     height: 100%;
     padding: 5px;
     margin: 5px;
     border: 1px solid black;
-}
-.mast {
-	max-width: 100%;
-	height: 300px;
-	background: red;
-	margin: auto;
-	position: relative;	
-}
-.mast-war {
-	height: 300px;
-	width: 100%;
-    background-image: url('../images/background/mast.png'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-	background-position: left;
-}
-.leftBay, .rightBay {
-    float:  left;
-    margin: 20px auto;
-    width: 25%;
-    min-height: 800px;   
-}
-.leftBay {
-    background-image: url('../images/background/ichigo.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;    
-}
-.rightBay {
-    background-image: url('../images/background/rukia.png'); 
-    background-size: cover;
-    background-repeat: no-repeat;    
 }
